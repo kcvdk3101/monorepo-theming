@@ -1,0 +1,23 @@
+{
+  "light": {
+    "primary": "#A8DF8E",
+    "primaryHover": "#4AB64E",
+    "secondary": "#FFBFBF",
+    "background": "#F3FDE8",
+    "textColor": "#000000"
+  },
+  "dark": {
+    "primary": "#212121",
+    "primaryHover": "#626161",
+    "secondary": "#757575",
+    "background": "#303030",
+    "textColor": "#FFFFFF"
+  },
+  "summer": {
+    "primary": "#FF5722",
+    "primaryHover": "#E85121",
+    "secondary": "#FFEB3B",
+    "background": "#FFF3E0",
+    "textColor": "#000000"
+  }
+}
