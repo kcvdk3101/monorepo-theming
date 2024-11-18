@@ -10,24 +10,24 @@ Build a monorepo project Theming/Styling solution for framework agnostic by usin
 ```bash
 emotion/
 ├── packages/
-│		├── theming/                # Contains theme tokens and logic to apply theme CSS styles
-│		│   ├── src/
-│		│   │   ├── colors.json     # Defines color tokens
-│		│   │   ├── applyTheme.js   # Method to define root variables from tokens
-│		│   └── package.json
-│		│
-│		├── ui-components/          # Framework-agnostic components
-│		│   ├── src/
-│		│   │   └── index.js        # Export all Pure JS components
-│		│   │   └── components
-│		│   │   │   ├── Button.js   # Pure JS Button component
-│		│   └── package.json
-│		│
-│		├── react-app/              # NextJS application
-│		│   ├── src/
-│		│   │   ├── app/
-│		│   │   │   ├── page.tsx    # Import Button component from ui-components
-│		│   └── package.json
+│    ├── theming/                # Contains theme tokens and logic to apply theme CSS styles
+│    │   ├── src/
+│    │   │   ├── colors.json     # Defines color tokens
+│    │   │   ├── applyTheme.js   # Method to define root variables from tokens
+│    │   └── package.json
+│    │
+│    ├── ui-components/          # Framework-agnostic components
+│    │   ├── src/
+│    │   │   └── index.js        # Export all Pure JS components
+│    │   │   └── components
+│    │   │   │   ├── Button.js   # Pure JS Button component
+│    │   └── package.json
+│    │
+│    ├── react-app/              # NextJS application
+│    │   ├── src/
+│    │   │   ├── app/
+│    │   │   │   ├── page.tsx    # Import Button component from ui-components
+│    │   └── package.json
 ├── package.json                # Monorepo package configuration
 └── lerna.json                  # Lerna for managing the monorepo
 ```
